@@ -27,13 +27,17 @@ CONFIG += c++11
 SOURCES += \
         entities.cpp \
         game.cpp \
+        ghost.cpp \
         main.cpp \
-        mainwindow.cpp
+        mainwindow.cpp \
+        pacclass.cpp
 
 HEADERS += \
         entities.h \
         game.h \
-        mainwindow.h
+        ghost.h \
+        mainwindow.h \
+        pacclass.h
 
 FORMS += \
         mainwindow.ui
